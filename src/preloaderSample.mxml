@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:Application xmlns:fx="http://ns.adobe.com/mxml/2009"
+               xmlns:s="library://ns.adobe.com/flex/spark"
+               xmlns:mx="library://ns.adobe.com/flex/mx"
+               width="800" height="600"
+               preloader="org.curi.CustomPreloader"
+               creationComplete="init()"
+               >
+
+  <fx:Script>
+    <![CDATA[
+      public function init():void{
+        //var _preloader:PreloaderDisplay = new PreloaderDisplay();
+        //addElement(_preloader);
+
+      }
+//
+    ]]>
+  </fx:Script>
+  <fx:Declarations>
+    <!-- 非ビジュアルエレメント (サービス、値オブジェクトなど) をここに配置 -->
+  </fx:Declarations>
+
+  <s:VGroup>
+    <s:HGroup>
+      <s:Button />
+      <s:Button />
+      <s:Button />
+      <s:Button />
+      <s:Button />
+      <s:Button />
+    </s:HGroup>
+  </s:VGroup>
+
+    <s:BitmapImage width="800" height="600" source="@Embed('/assets/dummy1.png')" />
+    <s:BitmapImage width="800" height="600" source="@Embed('/assets/dummy2.png')" />
+    <s:BitmapImage width="800" height="600" source="@Embed('/assets/dummy3.png')" />
+    <s:BitmapImage width="800" height="600" source="@Embed('/assets/dummy4.png')" />
+    <s:BitmapImage width="800" height="600" source="@Embed('/assets/dummy5.png')" />
+    <s:BitmapImage width="800" height="600" source="@Embed('/assets/dummy6.png')" />
+    <s:BitmapImage width="800" height="600" source="@Embed('/assets/dummy7.png')" />
+    <s:BitmapImage width="800" height="600" source="@Embed('/assets/dummy8.png')" />
+    <s:BitmapImage width="800" height="600" source="@Embed('/assets/dummy9.png')" />
+    <s:BitmapImage width="800" height="600" source="@Embed('/assets/dummy10.png')" />
+    <s:BitmapImage width="800" height="600" source="@Embed('/assets/dummy11.png')" />
+    <s:BitmapImage width="800" height="600" source="@Embed('/assets/dummy12.png')" />
+
+
+</s:Application>
